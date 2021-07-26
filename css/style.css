@@ -1,0 +1,22 @@
+.page {
+	max-width: 1024px;
+	margin: 0 auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.8;
+	background-color: #FFCF73;
+}
+
+.name {
+	text-align: center;
+}
+.myFoto {
+	 border-radius: 50%;
+	 width: 150px;
+}
+.logoRss {
+	width: 100px;
+}
+.headTitle {
+	font-size: 19px;
+}
