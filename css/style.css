@@ -1,22 +1,41 @@
+* {
+  box-sizing: border-box;
+}
 .page {
-	max-width: 1024px;
-	margin: 0 auto;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 16px;
-	line-height: 1.8;
-	background-color: #FFCF73;
+  max-width: 1024px;
+  margin: 0px auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  background-color: #969696;
+  overflow: scroll;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .name {
-	text-align: center;
+  text-align: center;
 }
 .myFoto {
-	 border-radius: 50%;
-	 width: 150px;
+  border-radius: 50%;
+  width: 150px;
 }
 .logoRss {
-	width: 100px;
+  width: 100px;
 }
 .headTitle {
-	font-size: 19px;
+  font-size: 19px;
+}
+.wrapper {
+  max-width: 960px;
+  padding-right: 12px;
+  padding-left: 12px;
+  -webkit-box-shadow: 0px 4px 15px 12px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 4px 15px 12px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 4px 15px 12px rgba(34, 60, 80, 0.2);
+  background-color: #cdcdcd;
+}
+.footer {
+  background-color: rgb(148, 152, 160);
 }
